@@ -1,0 +1,24 @@
+[
+  {
+    "version": "1.0.0",
+    "date": "2026-02-22",
+    "title": "Site Migration to Astro",
+    "expanded": true,
+    "changes": [
+      "Migrated entire site from legacy single-page HTML (Bootstrap 3 / jQuery 1.x) to Astro 4.x static site generator",
+      "Upgraded from Bootstrap 3 to Bootstrap 5.3 (CDN)",
+      "Upgraded from Font Awesome 4 to Font Awesome 6 Free (CDN)",
+      "Removed jQuery dependency — all interactivity now uses vanilla JavaScript",
+      "Extracted all hardcoded content into 10 JSON data files for easy editing",
+      "Built 13 reusable Astro components from the monolithic index.html",
+      "Replaced deprecated Google Universal Analytics with Google Analytics 4 (GA4)",
+      "Added Bootstrap 5 accordion for Chapter Updates (current year open by default)",
+      "Added Bootstrap 5 accordion for Meeting Recap news articles",
+      "Constrained oversized images with max-width limits throughout the site",
+      "Set Google Calendar embed to half-width layout alongside events",
+      "Deployed to Azure Static Web Apps (Free tier) with GitHub Actions CI/CD",
+      "Created automated build and deploy pipeline — push to master triggers deployment",
+      "Site now hosted at lively-moss-0fc93df10.1.azurestaticapps.net"
+    ]
+  }
+]
