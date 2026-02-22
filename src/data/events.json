@@ -1,0 +1,12 @@
+{
+  "calendarUrl": "https://calendar.google.com/calendar/embed?title=SAWE%20SE%20Region%20Events&height=600&wkst=1&bgcolor=%23FFFFFF&src=sersawe00%40gmail.com&color=%231B887A&src=en.usa%23holiday%40group.v.calendar.google.com&color=%23125A12&ctz=America%2FNew_York",
+  "events": [
+    {
+      "title": "Virtual Tech Forum - Parametrics Wanted",
+      "date": "Jan 12, 2024",
+      "image": "/img/events/Training.png",
+      "url": "https://www.sawe.org/techforum/parametric-wanted",
+      "external": true
+    }
+  ]
+}

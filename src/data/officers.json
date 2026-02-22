@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Alyx Stubbers",
+    "role": "International Director",
+    "photo": "/img/team/Stubbers146-2.png",
+    "email": "Alyx.Stubbers@gulfstream.com",
+    "linkedin": "https://www.linkedin.com/in/alyx-stubbers-815a5a1a2/",
+    "tooltip": "Acts as liaison between SAWE international and chapter.\nAttends International Board of Directors Meeting.\nPrepares annual chapter report."
+  },
+  {
+    "name": "Tom Tanner",
+    "role": "President",
+    "photo": "/img/team/Tanner146.png",
+    "email": "Thomas.Tanner@gulfstream.com",
+    "linkedin": "https://www.linkedin.com/in/thomas-tanner-iii-23b503195/",
+    "tooltip": "Schedules and runs chapter meetings.\nCreates meeting agendas and presentations.\nSends out invitations to events.\nFinds presenters.\nPromotes membership.\nEnsures smooth transition at end of term."
+  },
+  {
+    "name": "Ross Campbell",
+    "role": "Vice President",
+    "photo": "/img/team/Campbell146.jpg",
+    "email": "Gregory.Campbell@gulfstream.com",
+    "linkedin": null,
+    "tooltip": "Fills in for President in their absence.\nManages chapter projects."
+  },
+  {
+    "name": "Joshua McElveen",
+    "role": "Secretary",
+    "photo": "/img/team/Mcelveen146.jpg",
+    "email": "Joshua.Mcelveen@gulfstream.com",
+    "linkedin": "https://www.linkedin.com/in/joshua-mcelveen-734995230/",
+    "tooltip": "Takes meeting minutes and sends to Webmaster.\nProduces meeting flyers and supplies them to the President and Webmaster.\nTakes pictures at events."
+  },
+  {
+    "name": "Adam Cox",
+    "role": "Treasurer",
+    "photo": "/img/team/Cox146.png",
+    "email": "Adam.Cox@gulfstream.com",
+    "linkedin": "https://www.linkedin.com/in/adam-cox-ac4ac/",
+    "tooltip": "Maintains bank account and reports balance.\nMaintains membership rolls and actively promotes renewal.\nMakes and receives payments for services, meeting fees, etc."
+  }
+]

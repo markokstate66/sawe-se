@@ -1,0 +1,51 @@
+---
+import newsRecaps from '../data/news-recaps.json';
+---
+<div class="accordion" id="accordionMeetings">
+  {newsRecaps.map((yearGroup) => (
+    <div class="accordion-item">
+      <h2 class="accordion-header" id={`headingMtg${yearGroup.year}`}>
+        <button
+          class={`accordion-button ${yearGroup.expanded ? '' : 'collapsed'}`}
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target={`#collapseMtg${yearGroup.year}`}
+          aria-expanded={yearGroup.expanded ? 'true' : 'false'}
+          aria-controls={`collapseMtg${yearGroup.year}`}
+        >
+          {yearGroup.year}
+        </button>
+      </h2>
+      <div
+        id={`collapseMtg${yearGroup.year}`}
+        class={`accordion-collapse collapse ${yearGroup.expanded ? 'show' : ''}`}
+        aria-labelledby={`headingMtg${yearGroup.year}`}
+        data-bs-parent="#accordionMeetings"
+      >
+        <div class="accordion-body">
+          {yearGroup.articles.map((article) => (
+            <div class="row news-article-row">
+              <div class="col-md-4 col-sm-6">
+                <a href={article.imageLink} target="_blank" rel="noopener">
+                  <img src={article.image} class="img-fluid d-block mx-auto" alt={article.title} />
+                </a>
+              </div>
+              <div class="col-md-8 text-start">
+                <p>
+                  <b>{article.title}</b> - {article.body}
+                </p>
+                {article.links.map(link => (
+                  <a href={link.url}
+                     target={link.external ? '_blank' : '_blank'}
+                     rel="noopener">
+                    {link.text}
+                  </a>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  ))}
+</div>

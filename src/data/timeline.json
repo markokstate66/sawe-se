@@ -1,0 +1,23 @@
+[
+  {
+    "year": "1982",
+    "heading": "Our Beginnings",
+    "image": "/img/about/1.jpg",
+    "body": "In 1982 the Atlanta Chapter of the Society of Allied Weight Engineers was created to serve those Mass Properties Engineers primarily affiliated with Lockheed Martin and Delta Airlines in the Atlanta area.  The chapter included members with backgrounds in military transport and fighter aircraft, as well as airline operations.",
+    "inverted": false
+  },
+  {
+    "year": "2014",
+    "heading": "Expansion",
+    "image": "/img/about/2.jpg",
+    "body": "As the membership shifted away from Atlanta, a new focal point was created in Savannah, Georgia to serve those primarily at Gulfstream Aerospace, as well as others in the commercial aircraft and space community.  The Chapter was renamed and expanded to include all of Georgia, South Carolina, North Carolina, Florida and Alabama.",
+    "inverted": true
+  },
+  {
+    "year": "2018",
+    "heading": "Welcoming New Members",
+    "image": "/img/about/787.jpg",
+    "body": "With the rise of new Chapters in Florida and Alabama, our Chapter now encompasses Georgia, South Carolina and North Carolina.  We welcome all those interested in estimating, calculating, managing and measuring the mass properties of all types of products from the aerospace, land, offshore, marine and other allied industries. Our goal is to provide our members a place to meet others in the Mass Properties field, and share ideas, innovations and opportunities.",
+    "inverted": false
+  }
+]

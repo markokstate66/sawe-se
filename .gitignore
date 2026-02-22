@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.astro/
+.env
+SAWE_SE/
+SAWE_SE.zip

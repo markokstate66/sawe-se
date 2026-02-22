@@ -1,0 +1,42 @@
+---
+// Using Formspree for form handling - replace YOUR_FORM_ID with actual Formspree ID
+---
+<section id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Contact Us</h2>
+        <h3 class="section-subheading text-muted">Questions? We're here to help.</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" id="contactForm">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Name *" name="name" required />
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Your Email *" name="email" required />
+              </div>
+              <div class="form-group">
+                <input type="tel" class="form-control" placeholder="Your Phone *" name="phone" required />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group h-100">
+                <textarea class="form-control" placeholder="Your Message *" name="message" required style="height:100%; min-height:186px;"></textarea>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-lg-12 text-center mt-3">
+              <div id="success"></div>
+              <button type="submit" class="btn btn-xl">Send Message</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

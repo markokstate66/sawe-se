@@ -1,0 +1,97 @@
+[
+  {
+    "year": 2023,
+    "expanded": true,
+    "items": [
+      { "date": "04-25-2023", "title": "2nd Quarter Chapter Meeting Minutes", "document": "/documents/SAWE_SER_2nd_Qtr_Mtg_04-25-2023.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_2nd_Qtr_Mtg_04-25-2023_Thumbnail.png" },
+      { "date": "03-23-2023", "title": "1st Quarter Chapter Meeting Minutes", "document": "/documents/SAWE_SER_1st_Qtr_Mtg_03-23-2023.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_1st_Qtr_Mtg_03-23-2023_Thumbnail.png" }
+    ]
+  },
+  {
+    "year": 2022,
+    "expanded": false,
+    "items": [
+      { "date": "09-26-2022", "title": "2nd Quarter Chapter Meeting Minutes", "document": "/documents/SAWE_SER_3rd_Qtr_Mtg_09-26-2022.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_3rd_Qtr_Mtg_09-26-2022_Thumbnail.png" },
+      { "date": "01-13-2022", "title": "Conference Committee Meeting Minutes", "document": "/documents/SAWE_SER_Conf_Committee_Mtg_01-13-2022.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_Conf_Committee_Mtg_01-13-2022_Thumbnail.jpg" }
+    ]
+  },
+  {
+    "year": 2021,
+    "expanded": false,
+    "items": [
+      { "date": "11-11-2021", "title": "Officers' Meeting Minutes", "document": "/documents/SAWE_SER_Conf_Committee_Mtg_11-11-2021.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_Conf_Committee_Mtg_11-11-2021_thumbnail.png" },
+      { "date": "11-04-2021", "title": "Officers' Meeting Minutes", "document": "/documents/SAWE_SER_Conf_Committee_Mtg_11-04-2021.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_Conf_Committee_Mtg_11-04-2021_thumbnail.png" },
+      { "date": "09-30-2021", "title": "Officers' Meeting Minutes", "document": "/documents/SAWE_SER_Conf_Committee_Mtg_09-30-2021.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_Conf_Committee_Mtg_09-30-2021_thumbnail.png" },
+      { "date": "09-16-2021", "title": "Officers' Meeting Minutes", "document": "/documents/SAWE_SER_Conf_Committee_Mtg_09-16-2021.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_Conf_Committee_Mtg_09-16-2021_thumbnail.png" },
+      { "date": "08-26-2021", "title": "Officers' Meeting Minutes", "document": "/documents/SAWE_SER_Officers_Mtg_08-26-2021.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_Officers_Mtg_08-26-2021_Thumbnail.png" },
+      { "date": "08-05-2021", "title": "Officers' Meeting Minutes", "document": "/documents/SAWE_SER_Officers_Mtg_08-05-2021.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_Officers_Mtg_08-05-2021_Thumbnail.png" },
+      { "date": "07-22-2021", "title": "Officers' Meeting Minutes", "document": "/documents/SAWE_SER_Officers_Mtg_07-22-2021.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_Officers_Mtg_07-22-2021_Thumbnail.png" },
+      { "date": "07-08-2021", "title": "Conference Committee Meeting Minutes", "document": "/documents/SAWE_SER_Conf_Committee_Mtg_07-08-2021.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_Conf_Committee_Mtg_07-08-2021_Thumbnail.png" },
+      { "date": "06-30-2021", "title": "2nd Quarter Chapter Meeting Minutes", "document": "/documents/SAWE_SER_2nd_Qtr_Mtg_06-30-2021.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_2nd_Qtr_Mtg_06-30-2021_Thumbnail.png" },
+      { "date": "06-10-2021", "title": "Officers' Meeting Minutes", "document": "/documents/SAWE_SER_Officers_Mtg_06-10-2021.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_Officers_Mtg_06-10-2021_Thumbnail.png" },
+      { "date": "05-27-2021", "title": "Officers' Meeting Minutes", "document": "/documents/SAWE_SER_Officers_Mtg_05-27-2021.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_Officers_Mtg_05-27-2021_Thumbnail.png" },
+      { "date": "05-13-2021", "title": "Officers' Meeting Minutes", "document": "/documents/SAWE_SER_Officers_Mtg_05-13-2021.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_Officers_Mtg_05-13-2021_Thumbnail.png" },
+      { "date": "04-29-2021", "title": "Officers' Meeting Minutes", "document": "/documents/SAWE_SER_Officers_Mtg_04-29-2021.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_Officers_Mtg_04-29-2021_Thumbnail.png" },
+      { "date": "04-15-2021", "title": "Officers' Meeting Minutes", "document": "/documents/SAWE_SER_Officers_Mtg_04-15-2021.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_Officers_Mtg_04-15-2021_Thumbnail.png" },
+      { "date": "03-18-2021", "title": "1st Quarter Chapter Meeting Minutes", "document": "/documents/SAWE_SER_1st_Qtr_Mtg_03-18-2021.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_1st_Qtr_Mtg_03-18-2021_Thumbnail.jpg" },
+      { "date": "02-16-2021", "title": "Officers' Meeting Minutes", "document": "/documents/SAWE_SER_Officers_Mtg_02-16-2021.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_Officers_Mtg_02-16-2021_Thumbnail.png" },
+      { "date": "01-13-2021", "title": "Officers' Meeting Minutes", "document": "/documents/SAWE_SER_Officers_Mtg_01-13-2021.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_Officers_Mtg_01-13-2021_Thumbnail.png" }
+    ]
+  },
+  {
+    "year": 2020,
+    "expanded": false,
+    "items": [
+      { "date": "12-10-2020", "title": "4 Quarter Chapter Meeting Minutes", "document": "/documents/SAWE_SER_4th_Qtr_Mtg_12-10-2020.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_4th_Qtr_Mtg_12-10-2020_Thumbnail.png" },
+      { "date": "11-10-2020", "title": "Officers' Meeting Minutes", "document": "/documents/SAWE_SER_Officers_Mtg_11-10-2020.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_Officers_Mtg_11-10-2020_Thumbnail.png" },
+      { "date": "10-15-2020", "title": "Officers' Meeting Minutes", "document": "/documents/SAWE_SER_Officers_Mtg_10-15-2020.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_Officers_Mtg_10-15-2020_Thumbnail.png" },
+      { "date": "09-15-2020", "title": "Officers' Meeting Minutes", "document": "/documents/SAWE_SER_Officers_Mtg_09-15-2020.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_Officers_Mtg_09-15-2020_Thumbnail.png" },
+      { "date": "08-11-2020", "title": "Officers' Meeting Minutes", "document": "/documents/SAWE_SER_Officers_Mtg_08-11-2020.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_Officers_Mtg_08-11-2020_Thumbnail.png" },
+      { "date": "05-14-2020", "title": "Officers' Meeting Minutes", "document": "/documents/SAWE_SER_Officers_Mtg_05-14-2020.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_Officers_Mtg_05-14-2020_Thumbnail.png" },
+      { "date": "05-05-2020", "title": "News Update", "document": "/documents/SAWE_SER_Update_05-05-2020.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_Update_05-05-2020_thumbnail.png" },
+      { "date": "04-22-2020", "title": "1st Quarter Chapter Meeting Minutes", "document": "/documents/SAWE_SER_1st_Qtr_Mtg_04-22-2020.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_1st_Qtr_Mtg_04-22-2020_Thumbnail.png" },
+      { "date": "02-12-2020", "title": "Officers' Meeting Minutes", "document": "/documents/SAWE_SER_Officers_Mtg_02-12-2020.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_Officers_Mtg_02-12-2020_thumbnail.png" },
+      { "date": "01-14-2020", "title": "Officers' Meeting Minutes", "document": "/documents/SAWE_SER_Officers_Mtg_01-14-2020.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_Officers_Mtg_01-14-2020_thumbnail.png" }
+    ]
+  },
+  {
+    "year": 2019,
+    "expanded": false,
+    "items": [
+      { "date": "12-12-2019", "title": "4th Quarter Chapter Meeting Minutes", "document": "/documents/SAWE_SER_4th_Qtr_Mtg_12-12-2019.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_4th_Qtr_Mtg_12-12-2019_thumbnail.png" },
+      { "date": "11-14-2019", "title": "Officers' Meeting Minutes", "document": "/documents/SAWE_SER_Officers_Mtg_11-14-2019.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_Officers_Mtg_11-14-2019_thumbnail.png" },
+      { "date": "10-17-2019", "title": "Officers' Meeting Minutes", "document": "/documents/SAWE_SER_Officers_Mtg_10-17-2019.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_Officers_Mtg_10-17-2019_thumbnail.jpg" },
+      { "date": "09-12-2019", "title": "3rd Quarter Chapter Meeting Minutes", "document": "/documents/SAWE_SER_3rd_Qtr_Mtg_09-12-2019.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_3rd_Qtr_Mtg_09-12-2019_thumbnail.jpg" },
+      { "date": "08-15-2019", "title": "Officers' Meeting Minutes", "document": "/documents/SAWE_SER_Officers_Mtg_08-15-2019.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_Officers_Mtg_08-15-2019_thumbnail.jpg" },
+      { "date": "07-23-2019", "title": "Officers' Meeting Minutes", "document": "/documents/SAWE_SER_Officers_Mtg_07-23-2019.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_Officers_Mtg_07-23-2019_thumbnail.jpg" },
+      { "date": "06-13-2019", "title": "2nd Quarter Chapter Meeting Minutes", "document": "/documents/SAWE_SER_2nd_Qtr_Mtg_06-13-2019.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_2nd_Qtr_Mtg_06-13-2019_thumbnail.jpg" },
+      { "date": "05-14-2019", "title": "Officers' Meeting Minutes", "document": "/documents/SAWE_SER_Officers_Mtg_05-14-2019.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_Officers_Mtg_05-14-2019_thumbnail.jpg" },
+      { "date": "04-11-2019", "title": "Officers' Meeting Minutes", "document": "/documents/SAWE_SER_Officers_Mtg_04-11-2019.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_Officers_Mtg_04-11-2019_thumbnail.png" },
+      { "date": "03-25-2019", "title": "1st Quarter Chapter Meeting Minutes", "document": "/documents/SAWE_SER_1st_Qtr_Mtg_03-25-2019.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_1st_Qtr_Mtg_03-25-2019_thumbnail.png" },
+      { "date": "03-19-2019", "title": "News Update", "document": "/documents/SAWE_SER_1st_Qtr_Update_03-19-2019.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_1st_Qtr_Update_03-19-2019_thumbnail.png" },
+      { "date": "02-21-2019", "title": "Officers' Meeting Minutes", "document": "/documents/SAWE_SER_Officers_Mtg_02-21-2019.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_Officers_Mtg_02-21-2019_thumbnail.png" },
+      { "date": "01-10-2019", "title": "Officers' Meeting Minutes", "document": "/documents/SAWE_SER_Officers_Mtg_01-10-2019.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_Officers_Mtg_01-10-2019_thumbnail.png" }
+    ]
+  },
+  {
+    "year": 2018,
+    "expanded": false,
+    "items": [
+      { "date": "09-27-2018", "title": "3rd Quarter Chapter Meeting Minutes", "document": "/documents/SAWE_SER_3rd_Qtr_Mtg_09-27-2018.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_3rd_Qtr_Mtg_09-27-2018_thumbnail.png" },
+      { "date": "08-29-2018", "title": "Officers' Meeting Minutes", "document": "/documents/SAWE_SER_Officers_Mtg_08-29-2018.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_Officers_Mtg_08-29-2018_thumbnail.png" },
+      { "date": "07-19-2018", "title": "Officers' Meeting Minutes", "document": "/documents/SAWE_SER_Officers_Mtg_07-19-2018.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_Officers_Mtg_07-19-2018_thumbnail.png" },
+      { "date": "06-14-2018", "title": "2nd Quarter Chapter Meeting Minutes", "document": "/documents/SAWE_SER_2nd_Qtr_Mtg_06-14-2018.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_2nd_Qtr_Mtg_06-14-2018_thumbnail.png" },
+      { "date": "05-22-2018", "title": "Officers' Meeting Minutes", "document": "/documents/SAWE_SER_Officers_Mtg_05-22-2018.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_Officers_Mtg_05-22-2018_thumbnail.png" },
+      { "date": "05-03-2018", "title": "Officers' Meeting Minutes", "document": "/documents/SAWE_SER_Officers_Mtg_05-03-2018.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_Officers_Mtg_05-03-2018_thumbnail.png" },
+      { "date": "03-26-2018", "title": "News Update", "document": "/documents/SAWE_SER_News_03-26-2018.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_News_03-26-2018_thumbnail.png" },
+      { "date": "02-20-2018", "title": "Officers' Meeting Minutes", "document": "/documents/SAWE_SER_Officers_Mtg_02-20-2018.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_Officers_Mtg_02-20-2018_thumbnail.png" }
+    ]
+  },
+  {
+    "year": 2017,
+    "expanded": false,
+    "items": [
+      { "date": "05-08-2017", "title": "Officers' Meeting Minutes", "document": "/documents/SAWE_SER_Officers_Mtg_05-08-2017.pdf", "thumbnail": "/img/thumbnails/SAWE_SER_Officers_Mtg_05-08-2017_thumbnail.png" }
+    ]
+  }
+]

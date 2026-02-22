@@ -1,0 +1,71 @@
+---
+import chapterUpdates from '../data/chapter-updates.json';
+---
+<div class="portfolio-modal modal fade" id="newsModal1" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-bs-dismiss="modal">
+        <div class="lr"><div class="rl"></div></div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2">
+            <div class="modal-body">
+              <h2>Chapter Updates</h2>
+              <p class="item-intro text-muted">Latest Chapter News</p>
+              <div class="accordion" id="accordionNews">
+                {chapterUpdates.map(yearGroup => (
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id={`heading${yearGroup.year}`}>
+                      <button
+                        class={`accordion-button ${yearGroup.expanded ? '' : 'collapsed'}`}
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target={`#collapse${yearGroup.year}`}
+                        aria-expanded={yearGroup.expanded ? 'true' : 'false'}
+                        aria-controls={`collapse${yearGroup.year}`}
+                      >
+                        {yearGroup.year}
+                      </button>
+                    </h2>
+                    <div
+                      id={`collapse${yearGroup.year}`}
+                      class={`accordion-collapse collapse ${yearGroup.expanded ? 'show' : ''}`}
+                      aria-labelledby={`heading${yearGroup.year}`}
+                      data-bs-parent="#accordionNews"
+                    >
+                      <div class="accordion-body">
+                        <div class="table-responsive">
+                          <table class="table table-hover">
+                            <tbody>
+                              {yearGroup.items.map(item => (
+                                <tr>
+                                  <td>
+                                    <a href={item.document} target="_blank" rel="noopener">
+                                      <img src={item.thumbnail} height="100" alt={item.title} />
+                                    </a>
+                                  </td>
+                                  <td>{item.date}</td>
+                                  <td class="text-start">
+                                    <a href={item.document} target="_blank" rel="noopener">{item.title}</a>
+                                  </td>
+                                </tr>
+                              ))}
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <button type="button" class="btn btn-primary mt-3" data-bs-dismiss="modal">
+                <i class="fa-solid fa-xmark"></i> Close News
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,45 @@
+---
+import slides from '../data/header-slides.json';
+import siteConfig from '../data/site-config.json';
+
+const activeSlides = slides.filter(s => s.active);
+---
+<header>
+  <div class="container">
+    <div id="header-carousel">
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          {activeSlides.map((slide, i) => (
+            <div class={`carousel-item ${i === 0 ? 'active' : ''}`}
+                 style={`background-image: url('${slide.image}'); width:100%; height:100%; background-position:center center; background-size:cover;`}>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+    <div class="intro-text">
+      <img src="/img/logos/sersawe_logo4.png" height="300" width="300" alt="SAWE SE Region Logo" />
+      <div class="intro-lead-in">Welcome to the SAWE Southeast Region!</div>
+
+      <p class="with-eight" style="font-size:1.25rem;">
+        A Proud Chapter of the <a href={siteConfig.saweUrl} target="_blank" rel="noopener">Society of Allied Weight Engineers</a>
+      </p>
+      <p class="with-eight" style="font-size:1.1rem;">Aerospace - Marine - Offshore - Land Vehicle - Allied Industries</p>
+      <p class="with-eight" style="font-size:1.1rem;"><b><i>The World's Premier Source of Mass Properties Knowledge and Technical Excellence since 1939</i></b></p>
+
+      {siteConfig.notice && (
+        <p class="with-eight">
+          <b style="font-size:1.25rem;">
+            Notice:&nbsp;
+            <a href={siteConfig.notice.url}
+               target={siteConfig.notice.external ? '_blank' : undefined}
+               rel={siteConfig.notice.external ? 'noopener' : undefined}>
+              {siteConfig.notice.text}
+            </a>
+          </b>
+        </p>
+      )}
+      <p><br /></p>
+    </div>
+  </div>
+</header>

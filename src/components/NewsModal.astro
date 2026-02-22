@@ -1,0 +1,40 @@
+---
+interface Props {
+  id: string;
+  title: string;
+  subtitle: string;
+  links: Array<{ name: string; url: string }>;
+  closeLabel: string;
+}
+
+const { id, title, subtitle, links, closeLabel } = Astro.props;
+---
+<div class="portfolio-modal modal fade" id={id} tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-bs-dismiss="modal">
+        <div class="lr"><div class="rl"></div></div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2">
+            <div class="modal-body">
+              <h2>{title}</h2>
+              <p class="item-intro text-muted">{subtitle}</p>
+              <ul class="list-unstyled">
+                {links.map(link => (
+                  <li>
+                    <a href={link.url} target="_blank" rel="noopener">{link.name}</a>
+                  </li>
+                ))}
+              </ul>
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">
+                <i class="fa-solid fa-xmark"></i> {closeLabel}
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

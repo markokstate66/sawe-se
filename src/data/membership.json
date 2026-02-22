@@ -1,0 +1,20 @@
+[
+  {
+    "icon": "fa-cart-shopping",
+    "heading": "E-Store",
+    "description": "Download technical papers and publications from the SAWE International Website.",
+    "url": "https://www.sawe.org/papers"
+  },
+  {
+    "icon": "fa-laptop",
+    "heading": "Blog Site",
+    "description": "Join the conversation at the SAWE International Blog Site.",
+    "url": "https://www.sawe.org/blog"
+  },
+  {
+    "icon": "fa-user",
+    "heading": "Join/Renew",
+    "description": "Update your membership information, and pay your annual dues at the SAWE International Website.",
+    "url": "https://www.sawe.org/about/membership/application"
+  }
+]

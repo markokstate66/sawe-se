@@ -1,0 +1,25 @@
+---
+interface Props {
+  year: string;
+  heading: string;
+  image: string;
+  body: string;
+  inverted: boolean;
+}
+
+const { year, heading, image, body, inverted } = Astro.props;
+---
+<li class={inverted ? 'timeline-inverted' : ''}>
+  <div class="timeline-image">
+    <img src={image} alt={heading} />
+  </div>
+  <div class="timeline-panel">
+    <div class="timeline-heading">
+      <h4>{year}</h4>
+      <h4 class="subheading">{heading}</h4>
+    </div>
+    <div class="timeline-body">
+      <p class="text-muted">{body}</p>
+    </div>
+  </div>
+</li>

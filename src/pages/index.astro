@@ -1,0 +1,45 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Header from '../components/Header.astro';
+import About from '../components/About.astro';
+import Events from '../components/Events.astro';
+import NewsSection from '../components/NewsSection.astro';
+import Membership from '../components/Membership.astro';
+import Officers from '../components/Officers.astro';
+import Contact from '../components/Contact.astro';
+import Footer from '../components/Footer.astro';
+import ChapterUpdatesModal from '../components/ChapterUpdatesModal.astro';
+import NewsModal from '../components/NewsModal.astro';
+
+import aviationLinks from '../data/aviation-links.json';
+import spaceLinks from '../data/space-links.json';
+---
+<Layout title="SAWE Southeast">
+  <Navbar />
+  <Header />
+  <About />
+  <Events />
+  <NewsSection />
+  <Membership />
+  <Officers />
+  <Contact />
+  <Footer />
+
+  <!-- Modals -->
+  <ChapterUpdatesModal />
+  <NewsModal
+    id="newsModal2"
+    title="Aviation News"
+    subtitle="Links to Aviation Related News"
+    links={aviationLinks}
+    closeLabel="Close Aviation"
+  />
+  <NewsModal
+    id="newsModal3"
+    title="Space"
+    subtitle="Links to Space Related News"
+    links={spaceLinks}
+    closeLabel="Close Space"
+  />
+</Layout>

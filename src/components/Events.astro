@@ -1,0 +1,32 @@
+---
+import eventsData from '../data/events.json';
+---
+<section id="events" class="bg-light-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Events</h2>
+        <h3 class="section-subheading text-muted">Upcoming Activities and Collaboration Opportunities</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        {eventsData.events.map(event => (
+          <div class="mb-3 text-center">
+            <a href={event.url} target={event.external ? '_blank' : undefined} rel={event.external ? 'noopener' : undefined}>
+              <img src={event.image} class="img-fluid" style="max-width:295px;" alt={event.title} />
+            </a>
+            <p class="text-center mt-2"><b>{event.title}</b><br />{event.date}</p>
+          </div>
+        ))}
+      </div>
+      <div class="col-md-6">
+        <iframe
+          src={eventsData.calendarUrl}
+          style="border-width:0; width:100%; height:600px;"
+          title="SAWE SE Region Events Calendar"
+        ></iframe>
+      </div>
+    </div>
+  </div>
+</section>

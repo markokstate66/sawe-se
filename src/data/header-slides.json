@@ -1,0 +1,6 @@
+[
+  { "image": "/img/header-slides/g550inflight.jpg", "active": true },
+  { "image": "/img/header-slides/787_takeoff.jpg", "active": true },
+  { "image": "/img/header-slides/cargo-container-ship.jpg", "active": true },
+  { "image": "/img/header-slides/International-conference-2022.jpg", "active": false }
+]
